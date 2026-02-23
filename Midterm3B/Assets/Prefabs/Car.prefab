@@ -174,8 +174,8 @@ Transform:
   m_GameObject: {fileID: 3839192511587855037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0738, y: 0.2262, z: 0}
-  m_LocalScale: {x: 1.4219884, y: 1.3946053, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7597106731115565593}
@@ -224,7 +224,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: -7921649188387484213, guid: 058e5e59c6392124b8cb3fb32e793d5b, type: 3}
+  m_Sprite: {fileID: -8401234397498399444, guid: 0fed1002a52f3ad49889afd8dec8f899, type: 3}
   m_Color: {r: 1, g: 0.8156863, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 7950575865838726756}
   m_Layer: 0
   m_Name: Car
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -454,7 +454,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.075745106, y: 0.2214737}
+  m_Offset: {x: 0.113503456, y: -0.061868668}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -464,7 +464,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.6722288, y: 1.614193}
+  m_Size: {x: 1.1295071, y: 3.142727}
   m_EdgeRadius: 0
 --- !u!50 &792858489464096891
 Rigidbody2D:
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7eb7e8afc244453d8b25e35a7c3d7af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameHandlerObj: {fileID: 0}
+  gameHandlerObj: {fileID: 7698436341998144396, guid: e750c487b43e24f319e9f63574addc01, type: 3}
   accelerationFactor: 10
   turnFactor: 3.5
   driftFactor: 0.95
