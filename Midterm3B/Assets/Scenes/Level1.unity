@@ -2999,6 +2999,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2845009176576154990, guid: 38328a8c19bed4247a42ff11f62f7417, type: 3}
   m_PrefabInstance: {fileID: 399894012}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1320629800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2837962775801290653, guid: d3d3ba4a8f913484f8fbb66ff0e28e31, type: 3}
+  m_PrefabInstance: {fileID: 1426822805}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1322484902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5572,6 +5577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameHandler
       objectReference: {fileID: 0}
+    - target: {fileID: 7698436341998144396, guid: e750c487b43e24f319e9f63574addc01, type: 3}
+      propertyPath: countdown
+      value: 
+      objectReference: {fileID: 1320629800}
     - target: {fileID: 7698436341998144396, guid: e750c487b43e24f319e9f63574addc01, type: 3}
       propertyPath: timerText
       value: 

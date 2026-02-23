@@ -107,7 +107,7 @@ public class CarController_TopDown : MonoBehaviour {
         if(other.gameObject.tag == "Building"){
           gameHandlerObj.AddTime(50);
         }else if(other.gameObject.tag == "IceCreamStore"){
-          gameHandlerObj.StopTimer();
+          gameHandlerObj.WinGame();
         }else if(other.gameObject.tag == "BonusCone"){
           gameHandlerObj.SubtractTime(10);
           Destroy(other.gameObject);

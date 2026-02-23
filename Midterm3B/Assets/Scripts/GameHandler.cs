@@ -9,19 +9,21 @@ using UnityEngine.SceneManagement;
 public class GameHandler : MonoBehaviour {
 
     public static int timer = 0;
-    public static bool timerLive = true;
+    public static bool timerLive = false;
+    public static bool newGame = true;
 
     private float theTimer = 0f;
     public TMP_Text timerText;
 
     public GameObject changeTimeBG;
+    public GameObject countdown;
 
 
     void Start(){
-        if(timerLive == true){
+        if(newGame == true){
             timer = 0;
         }
-
+        StartCoroutine(startCountdown());
         UpdateTimer();
     }
 
@@ -64,6 +66,11 @@ public class GameHandler : MonoBehaviour {
 
     public void StopTimer(){
         timerLive = false;
+    }
+
+    public void WinGame(){
+        StopTimer();
+        newGame = false;
         StartCoroutine(endScene());
     }
 
@@ -88,7 +95,23 @@ public class GameHandler : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
 
         timer = 0;
-        timerLive = true;
+        newGame = true;
+    }
+
+    IEnumerator startCountdown(){
+        countdown.SetActive(true);
+        countdown.GetComponent<ChangeCountdown>().Number("3");
+        yield return new WaitForSeconds(1f);
+        countdown.GetComponent<ChangeCountdown>().Number("2");
+        yield return new WaitForSeconds(1f);
+        countdown.GetComponent<ChangeCountdown>().Number("1");
+        yield return new WaitForSeconds(1f);
+        countdown.GetComponent<ChangeCountdown>().Go();
+        yield return new WaitForSeconds(0.5f);
+        
+        if(newGame == true){
+            timerLive = true;
+        }
     }
 
     IEnumerator endScene(){
