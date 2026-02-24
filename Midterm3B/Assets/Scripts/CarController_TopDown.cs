@@ -115,6 +115,10 @@ public class CarController_TopDown : MonoBehaviour {
           gameHandlerObj.AddTime(100);
           Destroy(other.gameObject);
         }
+        else if(other.gameObject.tag == "TrafficCar"){
+          gameHandlerObj.AddTime(100);
+          Destroy(other.gameObject);
+        }
      }
 
     //  void OnTriggerStay2D(Collider2D other)
