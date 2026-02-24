@@ -13,6 +13,7 @@ TagManager:
   - Pedestrian
   - TrafficCar
   - Car
+  - PauseMenuSlider
   layers:
   - Default
   - TransparentFX

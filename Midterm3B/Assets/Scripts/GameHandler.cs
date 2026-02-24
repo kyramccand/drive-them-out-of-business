@@ -92,10 +92,9 @@ public class GameHandler : MonoBehaviour {
 
     public void RestartGame() {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
-
         timer = 0;
         newGame = true;
+        SceneManager.LoadScene("MainMenu");
     }
 
     IEnumerator startCountdown(){
@@ -115,7 +114,7 @@ public class GameHandler : MonoBehaviour {
     }
 
     IEnumerator endScene(){
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("EndWin");
     }
 }
