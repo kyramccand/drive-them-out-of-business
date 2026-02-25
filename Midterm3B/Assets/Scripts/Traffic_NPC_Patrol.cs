@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Traffic_NPC_Patrol : MonoBehaviour {
        // private Animator anim;
-       public float speed = 10f;
+       public float speed = 5f;
        private float waitTime;
-       public float startWaitTime = 2f;
+       public float startWaitTime = 0;
        public float turnSpeed = 1000f;
 
        public Transform[] moveSpots;

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class NPC_PatrolSequencePoints : MonoBehaviour {
        // private Animator anim;
-       public float speed = 10f;
+       public float speed = 2;
        private float waitTime;
-       public float startWaitTime = 2f;
+       public float startWaitTime = 0.5f;
 
        public Transform[] moveSpots;
        public int startSpot = 0;
