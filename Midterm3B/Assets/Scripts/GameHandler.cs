@@ -15,6 +15,7 @@ public class GameHandler : MonoBehaviour {
 
     private float theTimer = 0f;
     public TMP_Text timerText;
+    public TMP_Text introText;
 
     public GameObject changeTimeBG;
     public GameObject countdown;
@@ -25,10 +26,11 @@ public class GameHandler : MonoBehaviour {
     public static int bonusConesGot = 0;
 
 
-    void Start(){
+    void Start() {
         if(newGame == true){
             timer = 0;
         }
+        introText.text = "Destroy the Ice Cream Store!";
         StartCoroutine(startCountdown());
         UpdateTimer();
     }
@@ -105,7 +107,7 @@ public class GameHandler : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     }
 
-    IEnumerator startCountdown(){
+    IEnumerator startCountdown() {
         countdown.SetActive(true);
         countdown.GetComponent<ChangeCountdown>().Number("3");
         yield return new WaitForSeconds(1f);
@@ -113,6 +115,10 @@ public class GameHandler : MonoBehaviour {
         yield return new WaitForSeconds(1f);
         countdown.GetComponent<ChangeCountdown>().Number("1");
         yield return new WaitForSeconds(1f);
+        
+        // Hide the message after the countdown ends
+        introText.enabled = false;
+        
         countdown.GetComponent<ChangeCountdown>().Go();
         yield return new WaitForSeconds(0.5f);
         
