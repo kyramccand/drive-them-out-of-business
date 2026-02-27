@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: b63b1cd2c397348748ff5e8f1ef46ad2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -776283688887687267
+    second: JasonWiser_PlayerSpritesheet_1024_0
+  - first:
+      213: 107213495536292553
+    second: JasonWiser_PlayerSpritesheet_1024_1
+  - first:
+      213: -3217169228499057861
+    second: JasonWiser_PlayerSpritesheet_1024_2
+  - first:
+      213: 5754666564624813088
+    second: JasonWiser_PlayerSpritesheet_1024_3
+  - first:
+      213: -4458098279417792572
+    second: JasonWiser_PlayerSpritesheet_1024_4
+  - first:
+      213: 519882695154036487
+    second: JasonWiser_PlayerSpritesheet_1024_5
+  - first:
+      213: 7921817664690340103
+    second: JasonWiser_PlayerSpritesheet_1024_6
+  - first:
+      213: 642083548740814166
+    second: JasonWiser_PlayerSpritesheet_1024_7
+  - first:
+      213: 4694031271889371296
+    second: JasonWiser_PlayerSpritesheet_1024_8
+  - first:
+      213: 3219669453587699361
+    second: JasonWiser_PlayerSpritesheet_1024_9
+  - first:
+      213: -1792683513666719365
+    second: JasonWiser_PlayerSpritesheet_1024_10
+  - first:
+      213: 2910265572506572362
+    second: JasonWiser_PlayerSpritesheet_1024_11
+  - first:
+      213: -4841299955739690771
+    second: JasonWiser_PlayerSpritesheet_1024_12
+  - first:
+      213: -3785496273785690314
+    second: JasonWiser_PlayerSpritesheet_1024_13
+  - first:
+      213: -1448468009087664273
+    second: JasonWiser_PlayerSpritesheet_1024_14
+  - first:
+      213: 4534546890482702079
+    second: JasonWiser_PlayerSpritesheet_1024_15
+  - first:
+      213: 300521951600836249
+    second: JasonWiser_PlayerSpritesheet_1024_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 773
+        width: 113
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d976bee09161a35f0800000000000000
+      internalID: -776283688887687267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 773
+        width: 110
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2919c2b16ec7100800000000000000
+      internalID: 107213495536292553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_2
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 772
+        width: 117
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b330ff8c1a15a53d0800000000000000
+      internalID: -3217169228499057861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_3
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 797
+        width: 133
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c874140ceacdf40800000000000000
+      internalID: 5754666564624813088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 522
+        width: 128
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7b5812c37a122c0800000000000000
+      internalID: -4458098279417792572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 522
+        width: 93
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f67898e8ef63700800000000000000
+      internalID: 519882695154036487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 733
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7014847c133ffed60800000000000000
+      internalID: 7921817664690340103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_7
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 517
+        width: 104
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65581dee59329e800800000000000000
+      internalID: 642083548740814166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 517
+        width: 126
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a08a8d529c842140800000000000000
+      internalID: 4694031271889371296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 261
+        width: 78
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6554b3f409eac20800000000000000
+      internalID: 3219669453587699361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 262
+        width: 127
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b713235a7db1f17e0800000000000000
+      internalID: -1792683513666719365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_11
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 262
+        width: 111
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a469d437e17536820800000000000000
+      internalID: 2910265572506572362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_12
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 271
+        width: 147
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8750f275f30dcb0800000000000000
+      internalID: -4841299955739690771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 147
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63760760237377bc0800000000000000
+      internalID: -3785496273785690314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 5
+        width: 100
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fffc1250206ebe0800000000000000
+      internalID: -1448468009087664273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_15
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 6
+        width: 161
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6d2903f52fdee30800000000000000
+      internalID: 4534546890482702079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JasonWiser_PlayerSpritesheet_1024_16
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 5
+        width: 164
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eff5c6f1bab2400800000000000000
+      internalID: 300521951600836249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JasonWiser_PlayerSpritesheet_1024_0: -776283688887687267
+      JasonWiser_PlayerSpritesheet_1024_1: 107213495536292553
+      JasonWiser_PlayerSpritesheet_1024_10: -1792683513666719365
+      JasonWiser_PlayerSpritesheet_1024_11: 2910265572506572362
+      JasonWiser_PlayerSpritesheet_1024_12: -4841299955739690771
+      JasonWiser_PlayerSpritesheet_1024_13: -3785496273785690314
+      JasonWiser_PlayerSpritesheet_1024_14: -1448468009087664273
+      JasonWiser_PlayerSpritesheet_1024_15: 4534546890482702079
+      JasonWiser_PlayerSpritesheet_1024_16: 300521951600836249
+      JasonWiser_PlayerSpritesheet_1024_2: -3217169228499057861
+      JasonWiser_PlayerSpritesheet_1024_3: 5754666564624813088
+      JasonWiser_PlayerSpritesheet_1024_4: -4458098279417792572
+      JasonWiser_PlayerSpritesheet_1024_5: 519882695154036487
+      JasonWiser_PlayerSpritesheet_1024_6: 7921817664690340103
+      JasonWiser_PlayerSpritesheet_1024_7: 642083548740814166
+      JasonWiser_PlayerSpritesheet_1024_8: 4694031271889371296
+      JasonWiser_PlayerSpritesheet_1024_9: 3219669453587699361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
