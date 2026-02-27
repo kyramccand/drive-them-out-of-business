@@ -65,6 +65,7 @@ public class PauseMenuHandler : MonoBehaviour {
                 Time.timeScale = 1f;
                 GameHandler.timer = 0;
                 GameHandler.newGame = true;
+                GameHandler.gameGo = false;
                 SceneManager.LoadScene("MainMenu");
                 // Please also reset all static variables here, for new games!
         }

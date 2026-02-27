@@ -15,9 +15,6 @@ public class CarController_TopDown : MonoBehaviour {
     public bool allowStandingRotation = false; // enable for rotation without driving
     public float maxSpeed = 20; // Caps car speed
 
-    public int buildingsDestroyed = 0;
-    public int peopleKilled = 0;
-
      // Local Variables
     Vector2 inputVector;
     float accelerationInput = 0f;
@@ -36,10 +33,12 @@ public class CarController_TopDown : MonoBehaviour {
     }
 
     void Update() {
-        inputVector = Vector2.zero;
-        inputVector.x = Input.GetAxis("Horizontal");
-        inputVector.y = Input.GetAxis("Vertical");
-        SetInputVector(inputVector);
+          if(GameHandler.gameGo == false){
+               inputVector = Vector2.zero;
+               inputVector.x = Input.GetAxis("Horizontal");
+               inputVector.y = Input.GetAxis("Vertical");
+               SetInputVector(inputVector);
+          }
      }
 
     void FixedUpdate(){
@@ -109,21 +108,23 @@ public class CarController_TopDown : MonoBehaviour {
      void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag == "Building"){
           gameHandlerObj.AddTime(50);
-          buildingsDestroyed++;
+          GameHandler.buildingsHit++;
         }
         
         else if(other.gameObject.tag == "IceCreamStore"){
           gameHandlerObj.WinGame();
         }
+
         else if(other.gameObject.tag == "Pedestrian"){
           gameHandlerObj.AddTime(100);
           Destroy(other.gameObject);
-          peopleKilled++;
+          GameHandler.peopleHit++;
         }
 
         else if(other.gameObject.tag == "TrafficCar") {
           gameHandlerObj.AddTime(100);
           Destroy(other.gameObject);
+          GameHandler.carsHit++;
         }
      }
 
@@ -134,6 +135,7 @@ public class CarController_TopDown : MonoBehaviour {
                Vector2 engineForceVector = transform.up * 15f * accelerationFactor;
                carRb2D.AddForce(engineForceVector, ForceMode2D.Force);
                Destroy(other.gameObject);
+               GameHandler.bonusConesGot++;
           }
      }
 }

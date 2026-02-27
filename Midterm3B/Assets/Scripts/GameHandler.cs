@@ -11,12 +11,18 @@ public class GameHandler : MonoBehaviour {
     public static int timer = 0;
     public static bool timerLive = false;
     public static bool newGame = true;
+    public static bool gameGo = false;
 
     private float theTimer = 0f;
     public TMP_Text timerText;
 
     public GameObject changeTimeBG;
     public GameObject countdown;
+
+    public static int buildingsHit = 0;
+    public static int peopleHit = 0;
+    public static int carsHit = 0;
+    public static int bonusConesGot = 0;
 
 
     void Start(){
@@ -75,6 +81,7 @@ public class GameHandler : MonoBehaviour {
     }
 
     public void StartGame() {
+        gameGo = true;
         SceneManager.LoadScene("Level1");
     }
 
@@ -94,6 +101,7 @@ public class GameHandler : MonoBehaviour {
         Time.timeScale = 1f;
         timer = 0;
         newGame = true;
+        gameGo = false;
         SceneManager.LoadScene("MainMenu");
     }
 
@@ -108,12 +116,14 @@ public class GameHandler : MonoBehaviour {
         countdown.GetComponent<ChangeCountdown>().Go();
         yield return new WaitForSeconds(0.5f);
         
-        if(newGame == true){
+        if(newGame == true && gameGo == true){
             timerLive = true;
+            gameGo = false;
         }
     }
 
     IEnumerator endScene(){
+        gameGo = false;
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("EndWin");
     }
