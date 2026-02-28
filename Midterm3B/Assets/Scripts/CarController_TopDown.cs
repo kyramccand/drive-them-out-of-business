@@ -128,13 +128,12 @@ public class CarController_TopDown : MonoBehaviour {
         }
      }
 
-     void OnTriggerStay2D(Collider2D other)
+     void OnTriggerEnter2D(Collider2D other)
     {
           if(other.gameObject.tag == "BonusCone"){
                gameHandlerObj.SubtractTime(10);
                Vector2 engineForceVector = transform.up * 15f * accelerationFactor;
                carRb2D.AddForce(engineForceVector, ForceMode2D.Force);
-               Destroy(other.gameObject);
                GameHandler.bonusConesGot++;
           }
      }
