@@ -6012,6 +6012,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 807722246149916184, guid: 046c3b616afc13c48aa6a12f4a07571b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5688235120753765614, guid: 046c3b616afc13c48aa6a12f4a07571b, type: 3}
       propertyPath: m_Name
       value: Crosswalks
