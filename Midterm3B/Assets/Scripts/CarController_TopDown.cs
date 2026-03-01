@@ -110,7 +110,9 @@ public class CarController_TopDown : MonoBehaviour {
         if(other.gameObject.tag == "Building" || other.gameObject.tag == "Wall"){
           thudSFX.Play();
           gameHandlerObj.AddTime(50);
-          GameHandler.buildingsHit++;
+          if(GameHandler.timerLive == true){
+               GameHandler.buildingsHit++;
+          }
         }
         
         else if(other.gameObject.tag == "IceCreamStore"){
@@ -120,13 +122,17 @@ public class CarController_TopDown : MonoBehaviour {
         else if(other.gameObject.tag == "Pedestrian"){
           gameHandlerObj.AddTime(100);
           Destroy(other.gameObject);
-          GameHandler.peopleHit++;
+          if(GameHandler.timerLive == true){
+               GameHandler.peopleHit++;
+          }
         }
 
         else if(other.gameObject.tag == "TrafficCar") {
           gameHandlerObj.AddTime(100);
           Destroy(other.gameObject);
-          GameHandler.carsHit++;
+          if(GameHandler.timerLive == true){
+               GameHandler.carsHit++;
+          }
         }
      }
 
@@ -136,7 +142,9 @@ public class CarController_TopDown : MonoBehaviour {
                gameHandlerObj.SubtractTime(10);
                Vector2 engineForceVector = transform.up * 15f * accelerationFactor;
                carRb2D.AddForce(engineForceVector, ForceMode2D.Force);
-               GameHandler.bonusConesGot++;
+               if(GameHandler.timerLive == true){
+                    GameHandler.bonusConesGot++;
+               } 
           }
      }
 }
