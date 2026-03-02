@@ -442,7 +442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -201}
+  m_AnchoredPosition: {x: -13, y: -215}
   m_SizeDelta: {x: 1200, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181301155
@@ -492,13 +492,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 140.21768, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -578,7 +578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -261}
+  m_AnchoredPosition: {x: 0, y: -325}
   m_SizeDelta: {x: 1200, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &205887863
@@ -610,8 +610,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294901502
+  m_fontColor: {r: 0.9958072, g: 0.9958072, b: 0.9958072, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -628,8 +628,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -714,7 +714,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -1}
   m_SizeDelta: {x: 1280, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260785536
@@ -730,14 +730,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.604074, b: 0.745283, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1339fa7d76cbae04caa2c69559c6774b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -919,6 +919,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5471613740716172585, guid: 280052c52304f43d791babdbe1228483, type: 3}
+      propertyPath: m_Color.a
+      value: 0.73333335
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471613740716172585, guid: 280052c52304f43d791babdbe1228483, type: 3}
+      propertyPath: m_Color.b
+      value: 0.93301296
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471613740716172585, guid: 280052c52304f43d791babdbe1228483, type: 3}
+      propertyPath: m_Color.g
+      value: 0.93301296
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471613740716172585, guid: 280052c52304f43d791babdbe1228483, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
     - target: {fileID: 8128933646291252522, guid: 280052c52304f43d791babdbe1228483, type: 3}
       propertyPath: m_text
       value: HOW TO PLAY
@@ -1041,6 +1057,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5471613740716172585, guid: 280052c52304f43d791babdbe1228483, type: 3}
+      propertyPath: m_Color.a
+      value: 0.65882355
+      objectReference: {fileID: 0}
     - target: {fileID: 8128933646291252522, guid: 280052c52304f43d791babdbe1228483, type: 3}
       propertyPath: m_text
       value: PLAY
@@ -1111,7 +1131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8265147003575240801, guid: 280052c52304f43d791babdbe1228483, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -20
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 8265147003575240801, guid: 280052c52304f43d791babdbe1228483, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1253,7 +1273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1020884206
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1536,6 +1556,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5471613740716172585, guid: 280052c52304f43d791babdbe1228483, type: 3}
+      propertyPath: m_Color.a
+      value: 0.70980394
+      objectReference: {fileID: 0}
     - target: {fileID: 8128933646291252522, guid: 280052c52304f43d791babdbe1228483, type: 3}
       propertyPath: m_text
       value: CREDITS
@@ -1773,6 +1797,10 @@ PrefabInstance:
     - target: {fileID: 4688593640451107358, guid: 280052c52304f43d791babdbe1228483, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471613740716172585, guid: 280052c52304f43d791babdbe1228483, type: 3}
+      propertyPath: m_Color.a
+      value: 0.67058825
       objectReference: {fileID: 0}
     - target: {fileID: 8128933646291252522, guid: 280052c52304f43d791babdbe1228483, type: 3}
       propertyPath: m_text
