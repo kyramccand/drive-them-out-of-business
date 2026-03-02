@@ -852,28 +852,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &174405853 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3353759414405079241, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
-  m_PrefabInstance: {fileID: 1876486191}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &174405854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174405853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e09395b0f9a939479e5313110ef697c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakVFX: {fileID: 7061387767832889037, guid: 44378fd6807b93b42b2fdfec2d1b34b3, type: 3}
-  vfxLifetime: 0.5
-  carTag: Car
-  shakeTime: 0.12
-  shakeAmount: 0.06
 --- !u!4 &174405856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5946665423542630870, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
@@ -9593,18 +9571,6 @@ PrefabInstance:
       value: IceCreamStore
       objectReference: {fileID: 0}
     - target: {fileID: 5946665423542630870, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.4154
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946665423542630870, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4154
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946665423542630870, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.4154
-      objectReference: {fileID: 0}
-    - target: {fileID: 5946665423542630870, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.16
       objectReference: {fileID: 0}
@@ -9647,10 +9613,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3353759414405079241, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 174405854}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbf170fe4513447e09cf81aa709e46c3, type: 3}
 --- !u!1001 &1882051747
 PrefabInstance:
@@ -11053,7 +11016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7597106731115565593, guid: e88e7e8fd630842cfa68d506a86c1cdf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.21
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 7597106731115565593, guid: e88e7e8fd630842cfa68d506a86c1cdf, type: 3}
       propertyPath: m_LocalPosition.z
