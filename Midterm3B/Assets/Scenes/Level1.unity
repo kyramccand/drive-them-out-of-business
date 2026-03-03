@@ -950,6 +950,7 @@ GameObject:
   - component: {fileID: 197395476}
   - component: {fileID: 197395478}
   - component: {fileID: 197395477}
+  - component: {fileID: 197395479}
   m_Layer: 0
   m_Name: Trash_Can (2)
   m_TagString: Obstacle
@@ -1073,6 +1074,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &197395479
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197395475}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &208984800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1741,7 @@ GameObject:
   - component: {fileID: 333362355}
   - component: {fileID: 333362357}
   - component: {fileID: 333362356}
+  - component: {fileID: 333362358}
   m_Layer: 0
   m_Name: Lamp_post (1)
   m_TagString: Obstacle
@@ -1836,6 +1865,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &333362358
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333362354}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &345969312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3947496526770157001, guid: 802d35b4e2d3c45c78172b1ddcff110c, type: 3}
@@ -2659,7 +2715,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4130215424081473808, guid: 27a2b61a43b9a48408d15a8d1a69a349, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1055893266}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6175809572730996815, guid: 27a2b61a43b9a48408d15a8d1a69a349, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078687165}
   m_SourcePrefab: {fileID: 100100000, guid: 27a2b61a43b9a48408d15a8d1a69a349, type: 3}
 --- !u!1001 &409024804
 PrefabInstance:
@@ -3153,6 +3212,7 @@ GameObject:
   - component: {fileID: 539325067}
   - component: {fileID: 539325069}
   - component: {fileID: 539325068}
+  - component: {fileID: 539325070}
   m_Layer: 0
   m_Name: Lamp_post (3)
   m_TagString: Obstacle
@@ -3276,6 +3336,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &539325070
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539325066}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &541395245
 GameObject:
   m_ObjectHideFlags: 0
@@ -3499,6 +3586,7 @@ GameObject:
   - component: {fileID: 576284203}
   - component: {fileID: 576284205}
   - component: {fileID: 576284204}
+  - component: {fileID: 576284206}
   m_Layer: 0
   m_Name: Lamp_post (4)
   m_TagString: Obstacle
@@ -3622,6 +3710,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &576284206
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576284202}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &576697269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4655,6 +4770,7 @@ GameObject:
   - component: {fileID: 949079623}
   - component: {fileID: 949079625}
   - component: {fileID: 949079624}
+  - component: {fileID: 949079626}
   m_Layer: 0
   m_Name: Lamp_post (5)
   m_TagString: Obstacle
@@ -4778,6 +4894,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &949079626
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949079622}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &952537068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5376,6 +5519,7 @@ GameObject:
   - component: {fileID: 1055893266}
   - component: {fileID: 1055893268}
   - component: {fileID: 1055893267}
+  - component: {fileID: 1055893269}
   m_Layer: 0
   m_Name: Trash_Can (3)
   m_TagString: Obstacle
@@ -5499,6 +5643,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1055893269
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055893265}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1072320815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5568,6 +5739,38 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 802d35b4e2d3c45c78172b1ddcff110c, type: 3}
+--- !u!1 &1078687161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6175809572730996815, guid: 27a2b61a43b9a48408d15a8d1a69a349, type: 3}
+  m_PrefabInstance: {fileID: 407044302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1078687165
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078687161}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &1081630335 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7597106731115565593, guid: e88e7e8fd630842cfa68d506a86c1cdf, type: 3}
@@ -5925,6 +6128,7 @@ GameObject:
   - component: {fileID: 1186474265}
   - component: {fileID: 1186474267}
   - component: {fileID: 1186474266}
+  - component: {fileID: 1186474268}
   m_Layer: 0
   m_Name: Lamp_post (2)
   m_TagString: Obstacle
@@ -6048,6 +6252,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1186474268
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186474264}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1195279759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8844,6 +9075,7 @@ GameObject:
   - component: {fileID: 1778283924}
   - component: {fileID: 1778283926}
   - component: {fileID: 1778283925}
+  - component: {fileID: 1778283927}
   m_Layer: 0
   m_Name: Trash_Can (1)
   m_TagString: Obstacle
@@ -8967,6 +9199,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1778283927
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778283923}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1787918344
 PrefabInstance:
   m_ObjectHideFlags: 0
